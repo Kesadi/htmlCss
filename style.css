@@ -246,6 +246,7 @@
 
 .footer_middle {
     background-image: url(img/serf.png);
+    background-size: cover;
     padding: 100px 0 100px 0;
     
 }
@@ -254,6 +255,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .footer__middle__left {
@@ -269,12 +271,14 @@
     line-height: 24px;
     text-align: center;
     color: #222224;
+    margin-top: 30px;
 
 }
 
 .footer__middle__right {
     width: 370px;
     text-align: center;
+       
 }
 
 .footer__middle__right__para {
@@ -285,6 +289,7 @@
     line-height: 80%;
     text-align: center;
     color: #222224;
+    padding-bottom: 32px;
 }
 
 .footer__middle__right_decor {
@@ -292,7 +297,63 @@
     line-height: 167.2%;
 }
 
+.subscribe {
+    display: flex;
+        
+} 
+
+.footer__middle__email {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+    background: #E1E1E1;
+    padding: 15px 22px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    flex-grow: 1;
+    
+    }
+
+.footer__middle__subscribe {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    padding: 15px 22px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+   
+}
+
+
+
 .footer_bottom {
     background-color: #222224;
+    padding: 20px 0;
+}
+
+.footer__bottom__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__bottom__left {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+
 }
 
