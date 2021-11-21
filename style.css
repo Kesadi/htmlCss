@@ -193,7 +193,8 @@
 }
 
 .button_center {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .button {
@@ -355,5 +356,25 @@
     line-height: 19px;
     color: #FBFBFB;
 
+}
+
+.footer__bottom__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__item {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+       
 }
 
