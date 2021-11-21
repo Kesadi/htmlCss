@@ -378,3 +378,16 @@
        
 }
 
+
+
+
+
+.chooseKind {
+    background-color: #F1E4E6;
+    padding: 60px 0;
+}
+
+.chooseKind__wrap {
+    display: flex;
+    justify-content: space-between;
+}
