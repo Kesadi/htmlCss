@@ -154,9 +154,9 @@
     width: 360px;
     height: 580px;
     margin-bottom: 30px;
-
     display: flex;
     flex-direction: column;
+    text-decoration: none;
     }
 
 .catalog__item__describe {
