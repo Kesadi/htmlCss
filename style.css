@@ -466,8 +466,6 @@
 
 
 
-
-
 .filter[open] {
      box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
      
@@ -494,6 +492,10 @@
     margin: 18px;
 }
 
+.filter-title[open] > summary {
+    color: #EF5B70;
+}
+
 .filter_category {
     font-family: Lato;
     font-style: normal;
@@ -507,6 +509,33 @@
     padding: 10px;
     outline: none;
 }
+
+.thing {
+    display: block;
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 11px;
+    margin-top: 11px;
+
+}
+
+.thing:first-child {
+    margin-top: 24px;
+
+}
+
+.thing:last-child {
+     margin-bottom: 24px; 
+}
+
+
+
+
 
 .parametrs {
     display: flex;
