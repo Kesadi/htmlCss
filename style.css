@@ -210,6 +210,11 @@
     border: 1px solid #F26376;
 }
 
+.button:hover {
+    color: #FFFFFF; 
+    background-color: #F26376;
+}
+
 .footer_top {
     background-color: #222224;
 }
@@ -376,6 +381,11 @@
     justify-content: center;
     align-items: center; 
        
+}
+
+.footer__item:hover {
+    color:#FFFFFF;
+    background-color: #F26376;
 }
 
 
