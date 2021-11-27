@@ -215,11 +215,11 @@
     background-color: #F26376;
 }
 
-.footer_top {
+.foottop {
     background-color: #222224;
 }
 
-.footer__top__wrap {
+.foottop__wrap {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -250,7 +250,7 @@
     color: #FBFBFB;
 }
 
-.footer_middle {
+.footmiddle {
     background-image: url(img/serf.png);
     background-size: cover;
     padding: 100px 0 100px 0;
@@ -342,7 +342,7 @@
 
 
 
-.footer_bottom {
+.footbottom {
     background-color: #222224;
     padding: 20px 0;
 }
