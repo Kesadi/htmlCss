@@ -564,12 +564,12 @@
 
 
 
-.parametrs {
+.sorting__menu {
     display: flex;
     padding-top: 13px;
 }
 
-.parametrs_margin {
+.sorting__menu h2 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -578,7 +578,7 @@
     color: #6F6E6E;
 }
 
-.parametrs_margin:not(:last-child) {
+.sorting__menu h2:not(:last-child) {
     margin-right: 28px;
 }
 
