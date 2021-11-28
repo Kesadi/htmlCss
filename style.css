@@ -141,7 +141,7 @@
 }
 
 
-.catalog__title {
+.catalog h2 {
     text-align: center;
     font-family: Lato;
     font-style: normal;
@@ -151,7 +151,7 @@
     color: #222222;
 }
 
-.catalog__title__text {
+.catalog .padding {
     text-align: center;
     font-family: Lato;
     font-style: normal;
@@ -170,7 +170,7 @@
 
 }
 
-.catalog__item {
+.card {
     background-color: #F8F8F8;
     width: 360px;
     height: 580px;
@@ -180,40 +180,38 @@
     text-decoration: none;
     }
 
-.catalog__item__describe {
+.card__text {
     padding: 20px;
-    
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: space-between;
-    
     font-family: Lato;
     font-style: normal;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }    
 
-.catalog__item__title {
-    font-weight: normal;
+.card__text h3 {
     font-size: 13px;
     line-height: 16px;
+    font-weight: 400;
     color: #000000;
 }
 
-.catalog__item__para {
+.card__text p {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #5D5D5D;
 }
 
-.catalog__item__price {
+.card__text .price {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
 }
 
-.button_center {
+.flex-center {
     display: flex;
     justify-content: center;
 }
@@ -227,11 +225,15 @@
     color: #F26376;
     text-decoration: none;
     display: inline-block;
-    padding: 15px 40px;
     border: 1px solid #F26376;
 }
 
-.button:hover {
+.button--simply {
+    padding: 15px 40px;
+}
+
+
+.button--simply:hover {
     color: #FFFFFF; 
     background-color: #F26376;
 }
@@ -681,17 +683,8 @@
     margin-right: 25px;
 }
 
-.button__busket {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #F26376;
-    text-decoration: none;
-    display: inline-block;
+.button--busket {
     padding: 15px 54px;
-    border: 1px solid #F26376; 
     display: flex;
     align-items: center;
     }
