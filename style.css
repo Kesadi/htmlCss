@@ -225,12 +225,12 @@
     text-align: center;
 }
 
-.footer__top__card {
+.foottop__column {
     width: 350px;
     padding: 100px 20px 100px 20px;  
 }
 
-.footer__top__title {
+.foottop__column h3 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -240,7 +240,7 @@
     padding: 20px 0 20px 0;
 }
 
-.footer__top__para {
+.foottop__column p {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -257,19 +257,19 @@
     
 }
 
-.footer__middle_wrap {
+.footmiddle__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-.footer__middle__left {
+.footmiddle__left {
     width: 360px;
     text-align: center;
 }
 
-.footer_rewiew {
+.footmiddle__left p {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -281,13 +281,13 @@
 
 }
 
-.footer__middle__right {
+.footmiddle__right {
     width: 370px;
     text-align: center;
        
 }
 
-.footer__middle__right__para {
+.footmiddle__right h2 {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -298,17 +298,22 @@
     padding-bottom: 32px;
 }
 
-.footer__middle__right_decor {
+.footmiddle__right .decor {
     font-size: 24px;
     line-height: 167.2%;
 }
 
-.subscribe {
+.footmiddle__right form {
     display: flex;
         
 } 
 
-.footer__middle__email {
+
+  
+
+
+
+.footmiddle__right .email {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -325,7 +330,7 @@
     
     }
 
-.footer__middle__subscribe {
+  .footmiddle__right .btn {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -341,19 +346,18 @@
 }
 
 
-
 .footbottom {
     background-color: #222224;
     padding: 20px 0;
 }
 
-.footer__bottom__wrap {
+.footbottom__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__bottom__left {
+.copyright {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -363,12 +367,12 @@
 
 }
 
-.footer__bottom__right {
+.icons {
     display: flex;
     justify-content: flex-end;
 }
 
-.footer__item {
+.icons a  {
     color: #000;
     text-decoration: none;
     font-size: 20px;
@@ -383,7 +387,7 @@
        
 }
 
-.footer__item:hover {
+.icons a:hover {
     color:#FFFFFF;
     background-color: #F26376;
 }
