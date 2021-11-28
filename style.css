@@ -702,7 +702,12 @@
 
 
 
-.cart__promo {
+.name {
+    background-color: #F8F3F4;
+    padding: 60px 0;
+}
+
+.name h1 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -723,7 +728,7 @@
     justify-content: space-between; 
 }
 
-.cardbye {
+.slip {
     background-color: #FFFFFF;
     width: 652px;
     height: 306px;
@@ -733,12 +738,12 @@
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 
-.img__cover {
+.slip__img {
     object-fit: cover;
     height: 100%;
 }
 
-.cardbye__describe {
+.slip__text {
         padding: 22px 22px 22px 31px;
         width: 100%;
         display: flex;
@@ -746,7 +751,7 @@
 
 }
 
-.cardbye__describe__title {
+.slip__text h3 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -756,7 +761,7 @@
     padding-bottom: 42px;
 }
 
-.cardbye__describe__para {
+.slip__text p {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -766,23 +771,23 @@
     padding-bottom: 6px;
     }
 
-.cardbye__cover {
+.slip__text .strong {
     border: 1px solid #EAEAEA;
     padding: 0 16px;
     margin-left: 25px;
 }
 
-.cardbye__describe__para__cover {
+.slip__text .decor {
     color: #F16D7F;
 }    
 
-.decide {
+.buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 72px;
 }
 
-.decide__button {
+.buttons a {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -795,11 +800,11 @@
     display: inline-block;
 }
 
-.shipping {
+.blank {
     width: 360px;
 }
 
-.shipping__title {
+.blank h2 {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -810,12 +815,12 @@
 
 }
 
-.shipping__form {
+.blank form {
     display: flex;
     flex-direction: column;
 }
 
-.shipping__data {
+.blank input {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -827,17 +832,17 @@
     margin-top: 20px;
 }
 
-.shipping__data:first-child {
+.blank input:first-child {
     color: #B1B1B1;
 }
 
-.shipping__data:last-child {
+.blank input:last-child {
     width: 119px;
     height: 34px;
     margin-bottom: 57px;
 }
 
-.totalprice {
+.report {
     width: 360px;
     height: 214px;
     background-color: #F5F3F3;
@@ -849,7 +854,7 @@
 
 }
 
-.totalprice__sub {
+.report h3 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -858,7 +863,7 @@
     color: #4A4A4A;
 }
 
-.totalprice__grand {
+.report h2 {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -867,7 +872,7 @@
     color: #222222;
 }
 
-.totalprice__cover {
+.report .decor {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
@@ -877,7 +882,7 @@
     margin-left: 25px;
 }
 
-.totalprice__button {
+.report a {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
