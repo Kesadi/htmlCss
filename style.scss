@@ -1,3 +1,6 @@
+@import 'module/var';
+@import 'module/mix';
+
 * {
     margin: 0;
     padding: 0;
@@ -533,58 +536,7 @@
     justify-content: space-between; 
 }
 
-.slip {
-    background-color: #FFFFFF;
-    width: 652px;
-    height: 306px;
-    margin-bottom: 40px;
-    display: flex;
-    text-decoration: none;
-    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-}
 
-.slip__img {
-    object-fit: cover;
-    height: 100%;
-}
-
-.slip__text {
-        padding: 22px 22px 22px 31px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-
-}
-
-.slip__text h3 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    color: #222222;
-    padding-bottom: 42px;
-}
-
-.slip__text p {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
-    color: #575757;
-    padding-bottom: 6px;
-    }
-
-.slip__text .strong {
-    border: 1px solid #EAEAEA;
-    padding: 0 16px;
-    margin-left: 25px;
-}
-
-.slip__text .decor {
-    color: #F16D7F;
-}    
 
 .buttons {
     display: flex;
@@ -704,3 +656,4 @@
 
     @import 'module/header';
     @import 'module/footer';
+    @import 'module/slip';

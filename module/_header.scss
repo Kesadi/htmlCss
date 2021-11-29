@@ -4,9 +4,7 @@
     padding: 20px 0;
 
     &__wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include centerBlock;
     }
 
     &__left a {

@@ -1,0 +1,39 @@
+.slip {
+    background-color: #FFFFFF;
+    width: 652px;
+    height: 306px;
+    margin-bottom: 40px;
+    display: flex;
+    text-decoration: none;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    &__img {
+        object-fit: cover;
+        height: 100%;
+    }
+    &__text {
+        padding: 22px 22px 22px 31px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        & h3 {
+            @include textDesign (normal, 24px, 29px, #222222);  
+            padding-bottom: 42px;    
+        }  
+        & p {
+            @include textDesign (normal, 22px, 26px, #575757); 
+            padding-bottom: 6px;    
+        } 
+        & .strong {
+            border: 1px solid #EAEAEA;
+            padding: 0 16px;
+            margin-left: 25px;    
+        } 
+        & .decor {
+            color: $colordecor;    
+        }
+    }
+}
+
+
+
+

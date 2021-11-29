@@ -1,30 +1,19 @@
 .foottop {
    background-color: #222224; 
    &__wrap {
-        display: flex;
-        justify-content: space-between;
-        text-align: center; 
+        @include centerBlock;
    }
    &__column {
         width: 350px;
-        padding: 100px 20px 100px 20px;  
+        padding: 100px 0 100px 0;
+        text-align: center;
         & h3 {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 19.96px;
-            line-height: 24px;
-            color: #FBFBFB;
+            @include textDesign (normal, 20px, 24px, #FBFBFB);
             padding: 20px 0 20px 0;   
         }
         & p {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 13.972px;
-            line-height: 17px;
-            text-align: center;
-            color: #FBFBFB; 
+            @include textDesign (300, 13.972px, 17px, #FBFBFB);
+            text-align: center; 
         }
    }
 }
@@ -34,21 +23,14 @@
     background-size: cover;
     padding: 100px 0 100px 0;
     &__wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include centerBlock;
     }
     &__left {
         width: 360px;
         text-align: center;  
         & p {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 24px;
+            @include textDesign (normal, 20px, 24px, #222224);
             text-align: center;
-            color: #222224;
             margin-top: 30px;    
         }
     }
@@ -56,13 +38,8 @@
         width: 370px;
         text-align: center; 
         & h2 {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 80%;
+            @include textDesign (bold, 18px, 80%, #222224);      
             text-align: center;
-            color: #222224;
             padding-bottom: 32px;   
         }  
         & .decor {
@@ -73,12 +50,7 @@
             display: flex;    
         }
         & .email {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 17px;
-            color: #222224;
+            @include textDesign (normal, 14px, 17px, #222224);                   
             opacity: 0.67;
             background: #E1E1E1;
             padding: 15px 22px;
@@ -88,13 +60,8 @@
             flex-grow: 1;    
         }
         & .btn {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 17px;
-            color: #FFFFFF;
-            background: #F16D7F;
+            @include textDesign (normal, 14px, 17px, #FFFFFF);  
+            background: $colordecor;
             padding: 15px 22px;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
@@ -107,17 +74,10 @@
     background-color: #222224;
     padding: 20px 0;
     &__wrap {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;   
+        @include centerBlock;  
     }
     &__copyright {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #FBFBFB;    
+        @include textDesign (normal, 16px, 16px, #FBFBFB);   
     }
     &__icons {
         display: flex;
@@ -127,7 +87,6 @@
             text-decoration: none;
             font-size: 20px;
             background-color: #FFFFFF;
-            padding: 10px;
             margin: 5px;
             width: 32px;
             height: 32px;
@@ -136,7 +95,7 @@
             align-items: center; 
             &:hover {
                 color:#FFFFFF;
-                background-color: #F26376;    
+                background-color: $colordecor;    
             }   
         }   
     }
