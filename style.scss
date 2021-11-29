@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.header {
-    background-color: #222222;
-    color: white;
-    padding: 20px 0;
-}
 
 .container {
     max-width: 1160px;
@@ -17,20 +12,6 @@
     margin: 0 auto;
 }
 
-.header__wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__left a {
-    text-decoration: none;
-    margin-right: 41px;
-}
-
-.header__right img:not(:last-child) {
-    margin-right: 33px;
-}
 
 .promo {
     background-color: #F1E4E6;
@@ -895,3 +876,6 @@
     background-color: #F26376; 
     
     }
+
+
+    @import 'module/header';

@@ -1,0 +1,23 @@
+.header {
+    background-color: #222222;
+    color: white;
+    padding: 20px 0;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left a {
+        text-decoration: none;
+        margin-right: 41px;
+    }
+
+    &__right img:not(:last-child) {
+        margin-right: 33px;
+    }
+}
+
+
+
