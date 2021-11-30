@@ -251,7 +251,7 @@
   color: #FFFFFF;
   background-color: #F26376;
   transform: scale(2);
-}
+  }
 
 .headline {
   background-color: #F8F3F4;
@@ -918,11 +918,13 @@
           align-items: center;
           transition: .5s;
           
+          
 }
 
 .footbottom__icons a:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+  transform: rotate(360deg);
 }
 
 .slip {
