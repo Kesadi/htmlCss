@@ -43,29 +43,34 @@
             <div class="container profile__wrap">
 
                 <div class="login">
-                    <form class="login__form" action="#">
+                    <form class="login__flex" action="#">
                         <h2>Your Name</h2>
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                        <div class="login__form__radio">
-                            <input class="input" type="radio" name="gender">Male
-                            <input class="input" type="radio" name="gender">Female
+                        <input class="text" type="text" placeholder="First Name">
+                        <input class="text" type="text" placeholder="Last Name">
+                        <div class="login__radio">
+                            <input type="radio" name="gender"><span class="decor">Male</span>
+                            <input type="radio" name="gender"><span class="decor">Female</span>
                         </div>
-                    </form> 
-                    <form class="login__form" action="#">   
+                    </form>
+                    <form class="login__flex" action="#">
                         <h2>Login details</h2>
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p> 
-                    </form>  
+                        <input class="text" type="email" placeholder="Email">
+                        <input class="text" type="password" placeholder="Password">
+                        <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
+                            lowercase letters</p>
+                    </form>
                     <nav>
-                        <a href="#">JOIN NOW</a>
-                    </nav>         
+                        <a href="#" class="button button--right">
+                            <div>JOIN NOW</div>
+                            <div><img src="img/right.png" alt=""></div>
+                        </a>
+                    </nav>
                 </div>
 
-                <div>
-                    <h2>LOYALTY HAS ITS PERKS</h2> 
-                    <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                <div class="paragraph">
+                    <h2>LOYALTY HAS ITS PERKS</h2>
+                    <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with
+                        these as soon as you join:</p>
                     <ul>
                         <li>15% off welcome offer</li>
                         <li>Free shipping, returns and exchanges on all orders</li>
