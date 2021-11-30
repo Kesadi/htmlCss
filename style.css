@@ -995,7 +995,67 @@
 
 }
 
+
 .login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column; 
+  width: 360px;
+}
+
+.login__form h2 {
+  padding-bottom: 21px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.login__form input {
+  margin-bottom: 21px;
+  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+
+  padding: 14px 17px;
+  border: 1px solid #A4A4A4;
+}
+
+.login__form__radio {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 32px;
+  
+}
+
+.login__form .input {
+margin-right: 10px;
+  
+}
+
+
+
+.login__form p {
+  padding-bottom: 39px;  
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+/* .login {
   width: 360px;
   display: flex;
   flex-direction: column;
@@ -1045,4 +1105,4 @@
   font-size: 13px;
   line-height: 16px;
   color: #B1B1B1;
-}
+} */
