@@ -1,0 +1,14 @@
+@mixin centerBlock () {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+@mixin textDesign ($fw, $fs, $lh, $clr) {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $clr;
+}
