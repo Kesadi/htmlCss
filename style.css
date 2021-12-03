@@ -93,19 +93,19 @@
 }
 
 .genus--woman {
-  background-image: url(img/forWoman.png);
+  background-image: url(img/back.png), url(img/forWoman.png);
 }
 
 .genus--man {
-  background-image: url(img/forMan.png);
+  background-image: url(img/back.png), url(img/forMan.png);
 }
 
 .genus--kids {
-  background-image: url(img/forKids.png);
+  background-image: url(img/back.png), url(img/forKids.png);
 }
 
 .genus--accesories {
-  background-image: url(img/accesories.png);
+  background-image: url(img/back.png), url(img/accesories.png);
 }
 
 .genus:not(:last-child) {
@@ -238,9 +238,6 @@
   text-decoration: none;
   display: inline-block;
   border: 1px solid #F26376;
-  transition: 1s;
-
-
 }
 
 .button--simply {
@@ -250,8 +247,7 @@
 .button--simply:hover {
   color: #FFFFFF;
   background-color: #F26376;
-  transform: scale(2);
-  }
+}
 
 .headline {
   background-color: #F8F3F4;
@@ -916,15 +912,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          transition: .5s;
-          
-          
 }
 
 .footbottom__icons a:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
-  transform: rotate(360deg);
 }
 
 .slip {
@@ -987,134 +979,3 @@
   color: #F16D7F;
 }
 /*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-.profile {
-  padding: 64px 0 96px 0;
-}
-
-.profile__wrap {
-  display: flex;
-  justify-content: space-between;
-
-}
-
-
-.login {
-  display: flex;
-  flex-direction: column;
-}
-
-.login__flex {
-  display: flex;
-  flex-direction: column; 
-  width: 360px;
-}
-
-.login h2 {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  color: #222222;
-}
-
-.login .text {
-  margin-top: 21px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  color: #B1B1B1;
-  padding: 14px 17px;
-  border: 1px solid #A4A4A4;
-}
-
-.login__radio {
-  display: flex;
-  margin-top: 31px;
-  margin-bottom: 33px;
-  
-}
-
-.login__radio .decor {
-  padding: 0 20px 0 10px;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 13px;
-  color: #000000;
-
-}
-
-.login p {
-  padding-bottom: 39px;
-  padding-top: 15px;  
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  color: #B1B1B1;
-}
-
-
-
-.button--right {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  color:#FFFFFF;
-  background-color: #F26376;
-  padding: 16px 20px;
-}
-
-
-.paragraph {
-  width: 652px;
-}
-
-.paragraph h2 {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  padding-bottom: 22px;
-}
-
-.paragraph p {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  padding-bottom: 22px;
-}
-
-.paragraph li {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-
-  padding-bottom: 16px;
-  list-style-type: none;
-}
-
-.paragraph li:before {
-  content: url(img/check.png);
-  margin-right: 22px;
-}
-
