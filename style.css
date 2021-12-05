@@ -377,6 +377,7 @@
   -webkit-box-shadow: rgba(0, 0, 0, 0.21) 0px 27px 24px;
           box-shadow: rgba(0, 0, 0, 0.21) 0px 27px 24px;
   background-color: #FFFFFF;
+  z-index: 1;  /* фильтр будет располагаться ближе всех к экрану */
 }
 
 .filter-title {
