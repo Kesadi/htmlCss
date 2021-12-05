@@ -275,6 +275,7 @@
   text-decoration: none;
   display: inline-block;
   border: 1px solid #F26376;
+  transition: 1s;
 }
 
 .button--simply {
@@ -284,6 +285,7 @@
 .button--simply:hover {
   color: #FFFFFF;
   background-color: #F26376;
+  transform: scale(2);
 }
 
 .headline {
@@ -949,11 +951,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  transition: 0.5s;
 }
 
 .footbottom__icons a:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+  transform: rotate(360deg);
 }
 
 .slip {
