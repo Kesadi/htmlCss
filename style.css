@@ -311,7 +311,20 @@
   color: #F16D7F;
 }
 
-.headline__link a {
+
+
+.headline__link {
+list-style: none;
+display: flex;
+align-items: center;
+}
+
+.headline__link li:not(:last-child)::after {
+  padding: 5px;
+  content: "/\00a0";
+}
+
+.headline__link li a {
   text-decoration: none;
   font-family: Lato;
   font-style: normal;
@@ -321,9 +334,10 @@
   color: #636363;
 }
 
-.headline__link .decor {
+.headline__link li .decor {
   color: #F16D7F;
 }
+
 
 .general {
   margin: 0 0 100px 0;
