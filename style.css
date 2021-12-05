@@ -179,6 +179,43 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-decoration: none;
+  position: relative;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 420px;
+  background-image: url(img/bcgr.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card__overlay .decor {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background: rgba(0, 0, 0, 0);
+}
+
+.card__overlay .margin {
+  margin-right: 11px;
+}
+
+.card:hover .card__overlay {
+  opacity: 1;
 }
 
 .card__text {
