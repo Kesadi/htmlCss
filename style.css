@@ -359,6 +359,7 @@
   font-size: 14px;
   line-height: 17px;
   padding-left: 16px;
+  width: fit-content; /* чтобы открывалось при нажатии непосредственно на кнопку, а не на строку */
 }
 
 .filter[open] {
@@ -368,6 +369,7 @@
 
 .filter[open] > summary {
   color: #EF5B70;
+  fill: #EF5B70; /* свойство fill заполняет цветом форму svg */
 }
 
 .filter-content {
