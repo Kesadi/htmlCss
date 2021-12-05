@@ -446,18 +446,28 @@ align-items: center;
   padding-top: 13px;
 }
 
-.sorting__menu h2 {
+
+
+::-webkit-details-marker {
+  display: none;
+  list-style: none;
+}  /* чтобы это работало, надо ставить в summary свойство display: block */
+
+
+.sorting__menu .menu {
+  display: block;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
+  margin-right: 28px;
+  
 }
 
-.sorting__menu h2:not(:last-child) {
-  margin-right: 28px;
-}
+
+
 
 .product {
   position: relative;
