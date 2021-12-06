@@ -477,13 +477,19 @@ align-items: center;
 .carousel {
   background-color: #F7F7F7;
   height: 777px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.carousel__photo {
-  height: 100%;
-  background-image: url(img/product1.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.carousel-btn {
+  padding: 13px 17px;
+  background: rgba(42, 42, 42, 0.15);
+  border-style: none;
+}
+
+.carousel-btn:hover {
+  color: #F16D7F;
 }
 
 .desc {
@@ -504,6 +510,7 @@ align-items: center;
           align-items: center;
   margin-top: -60px;
   margin-bottom: 128px;
+  position: relative; /* чтобы блок был над, а не под */
 }
 
 .desc__container {
