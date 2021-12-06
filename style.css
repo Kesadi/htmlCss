@@ -575,16 +575,14 @@ align-items: center;
   display: flex;
 }
 
-.desc__sort h2 {
+.desc__sort .menu {
+  display: block;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
-}
-
-.desc__sort h2:not(:last-child) {
   margin-right: 25px;
 }
 
