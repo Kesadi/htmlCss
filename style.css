@@ -453,14 +453,13 @@ align-items: center;
   list-style: none;
 }  /* чтобы это работало, надо ставить в summary свойство display: block */
 
-.sorting__relative {
-  position: relative;
+.sorting__member {
   z-index: 3; /* чтобы при открытии перекрывал карточки */
 }
 
 
 .sorting__menu {
-  display: block;
+  
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -473,11 +472,11 @@ align-items: center;
 }
 
 .sorting__hover {
-  /* display: none; */
+  display: none;
   position: absolute; 
-  top: 24px;
+  
   padding: 10px;
-  width: 100%;
+  
   background-color: #FFFFFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
@@ -492,12 +491,16 @@ align-items: center;
 }
 
 .sorting__hover input {
-  
+  outline: none;
+  -webkit-appearance:none;
   border: 1px solid #EBEBEB;
+  width: 12px;
+  height: 12px;
 } 
 
 
-.sorting__relative:hover .sorting__hover {
+
+.sorting__member:hover .sorting__hover {
   display: block;
 }
 
