@@ -343,7 +343,7 @@ align-items: center;
   margin: 0 0 100px 0;
 }
 
-.sorting {
+.sorting-flex {
   padding: 39px 0 64px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,7 +439,7 @@ align-items: center;
   margin-bottom: 24px;
 }
 
-.sorting__menu {
+.sorting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,8 +453,13 @@ align-items: center;
   list-style: none;
 }  /* чтобы это работало, надо ставить в summary свойство display: block */
 
+.sorting__relative {
+  position: relative;
+  z-index: 3; /* чтобы при открытии перекрывал карточки */
+}
 
-.sorting__menu .menu {
+
+.sorting__menu {
   display: block;
   font-family: Lato;
   font-style: normal;
@@ -463,10 +468,38 @@ align-items: center;
   line-height: 17px;
   color: #6F6E6E;
   margin-right: 28px;
+  margin-left: 10px;
   
 }
 
+.sorting__hover {
+  /* display: none; */
+  position: absolute; 
+  top: 24px;
+  padding: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
 
+.sorting__hover label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6E6E;
+}
+
+.sorting__hover input {
+  
+  border: 1px solid #EBEBEB;
+} 
+
+
+.sorting__relative:hover .sorting__hover {
+  display: block;
+}
 
 
 .product {

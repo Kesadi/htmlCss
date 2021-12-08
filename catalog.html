@@ -47,7 +47,7 @@
         <section class="general">
             <div class="container">
 
-                <div class="sorting">
+                <div class="sorting-flex">
 
                     <details class="filter">
                         <summary class="filter__summary">FILTER <svg width="15" height="10" viewBox="0 0 15 10"
@@ -86,8 +86,33 @@
 
                     </details>
 
-                    <div class="sorting__menu">
-                        <details>
+                    <div class="sorting">
+                        <div class="sorting__relative">
+                            <div class="sorting__menu">TRENDING NOW <i class="fas fa-angle-down"></i></div>
+                            <div class="sorting__hover"> выпадающий блок абсолют</div>
+                        </div>
+
+                        <div class="sorting__relative">
+                            <div class="sorting__menu">SIZE <i class="fas fa-angle-down"></i></div>
+                            <div class="sorting__hover">
+                                <input type="checkbox" id="check">
+                                <label for="check">XS</label><br>
+                                <input type="checkbox" id="check">
+                                <label for="check">S</label><br>
+                                <input type="checkbox" id="check">
+                                <label for="check">M</label><br>
+                                <input type="checkbox" id="check">
+                                <label for="check">L</label>
+                            </div>
+                        </div>
+
+                        <div class="sorting__relative">
+                            <div class="sorting__menu">PRICE <i class="fas fa-angle-down"></i></div>
+                            <div class="sorting__hover"> выпадающий блок абсолют</div>
+                        </div>
+
+
+                        <!-- <details>
                             <summary class="menu">TRENDING NOW <i class="fas fa-angle-down"></i></summary>
                         </details>
                         <details>
@@ -95,9 +120,7 @@
                         </details>
                         <details>
                             <summary class="menu">PRICE <i class="fas fa-angle-down"></i></summary>
-                        </details>
-
-
+                        </details>  -->
                     </div>
 
                 </div>
