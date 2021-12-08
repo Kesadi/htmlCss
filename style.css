@@ -809,6 +809,7 @@ align-items: center;
   background-color: #222222;
   color: white;
   padding: 20px 0;
+  position: relative;
 }
 
 .header__wrap {
@@ -831,6 +832,86 @@ align-items: center;
 .header__right a:not(:last-child) {
   margin-right: 33px;
 }
+
+.header__right input {
+  display: none;
+}
+
+.header__right label {
+  margin-right: 33px;
+}
+
+.header__right .box-place {
+  position: absolute;
+  top: 82px;
+  right: 0;
+  z-index: 10; 
+  /* display: none;  */
+}
+
+.header__right .box {
+  width: 232px;
+  padding: 34px;
+  background-color: #fff;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  height: 764px; /*потом сделать на всю высоту экрана*/
+}
+
+.box__wrap {
+  position: relative;
+}
+
+.box__close {
+  position: absolute;
+  color: #6F6E6E;
+  top: -18px;
+  right: -47px;
+}
+
+.box__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 4px;
+
+}
+
+.box__name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  padding-top: 20px;
+
+}
+
+.box h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+
+#check:checked~.box-place {
+  display: block;
+}
+
+#check:not(checked)~.box-place {
+  display: none;
+}
+
+
+
 
 .foottop {
   background-color: #222224;
