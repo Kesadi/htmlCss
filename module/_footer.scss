@@ -1,0 +1,104 @@
+.foottop {
+   background-color: #222224; 
+   &__wrap {
+        @include centerBlock;
+   }
+   &__column {
+        width: 350px;
+        padding: 100px 0 100px 0;
+        text-align: center;
+        & h3 {
+            @include textDesign (normal, 20px, 24px, #FBFBFB);
+            padding: 20px 0 20px 0;   
+        }
+        & p {
+            @include textDesign (300, 13.972px, 17px, #FBFBFB);
+            text-align: center; 
+        }
+   }
+}
+
+.footmiddle {
+    background-image: url(img/serf.png);
+    background-size: cover;
+    padding: 100px 0 100px 0;
+    &__wrap {
+        @include centerBlock;
+    }
+    &__left {
+        width: 360px;
+        text-align: center;  
+        & p {
+            @include textDesign (normal, 20px, 24px, #222224);
+            text-align: center;
+            margin-top: 30px;    
+        }
+    }
+    &__right {
+        width: 370px;
+        text-align: center; 
+        & h2 {
+            @include textDesign (bold, 18px, 80%, #222224);      
+            text-align: center;
+            padding-bottom: 32px;   
+        }  
+        & .decor {
+            font-size: 24px;
+            line-height: 167.2%;    
+        } 
+        & form {
+            display: flex;    
+        }
+        & .email {
+            @include textDesign (normal, 14px, 17px, #222224);                   
+            opacity: 0.67;
+            background: #E1E1E1;
+            padding: 15px 22px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border: none;
+            flex-grow: 1;    
+        }
+        & .btn {
+            @include textDesign (normal, 14px, 17px, #FFFFFF);  
+            background: $colordecor;
+            padding: 15px 22px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: none;    
+        }
+    }
+}
+
+.footbottom {
+    background-color: #222224;
+    padding: 20px 0;
+    &__wrap {
+        @include centerBlock;  
+    }
+    &__copyright {
+        @include textDesign (normal, 16px, 16px, #FBFBFB);   
+    }
+    &__icons {
+        display: flex;
+        justify-content: flex-end; 
+        & a {
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+            background-color: #FFFFFF;
+            margin: 5px;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            &:hover {
+                color:#FFFFFF;
+                background-color: $colordecor;    
+            }   
+        }   
+    }
+}
+
+  
