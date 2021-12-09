@@ -1410,7 +1410,7 @@ align-items: center;
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   
   .container {
     max-width: 363px;
