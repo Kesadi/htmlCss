@@ -839,6 +839,7 @@ align-items: center;
 
 .header__right label {
   margin-right: 33px;
+  cursor: pointer;
 }
 
 .header__right .box-place {
