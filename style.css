@@ -1252,8 +1252,9 @@ border: 1px solid #EAEAEA;
 
 .slip__text .strong {
   border: 1px solid #EAEAEA;
-  padding: 0 16px;
+  padding: 5px 8px;
   margin-left: 25px;
+  width: 43px;
 }
 
 .slip__text .decor {
