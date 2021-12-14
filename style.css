@@ -5,6 +5,17 @@
           box-sizing: border-box;
 }
 
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainik {
+flex-grow: 1;
+}
+
 .container {
   max-width: 1160px;
   padding: 0 10px;
@@ -861,6 +872,7 @@ border: 1px solid #EAEAEA;
   color: white;
   padding: 20px 0;
   position: relative;
+  
 }
 
 .header__wrap {
