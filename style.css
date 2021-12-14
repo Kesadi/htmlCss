@@ -378,9 +378,6 @@ align-items: center;
   cursor: pointer;
 }
 
-.filter:hover {
-  opacity: 0.8;
-}
 
 .filter::-webkit-details-marker {
   display: none;
@@ -396,6 +393,10 @@ align-items: center;
   line-height: 17px;
   padding-left: 16px;
   width: fit-content; /* чтобы открывалось при нажатии непосредственно на кнопку, а не на строку */
+}
+
+.filter__summary:hover {
+  opacity: 0.8;
 }
 
 .filter[open] {
